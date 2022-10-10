@@ -44,7 +44,12 @@ body {
   color: #fff;
   text-transform: uppercase;
   list-style-type: none;
-  padding: 22px 35px 22px 0px;
+  margin: 22px;
+}
+
+.header-nav__item_active {
+  display: inline;
+  border-bottom: 3px solid #fff;
 }
 
 .header-lang {
@@ -60,7 +65,7 @@ body {
   margin: 4px;
 }
 
-.active-lang {
+.header-lang__switch_active {
   color: #b7b7b7;
 }
 
