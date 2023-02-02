@@ -287,24 +287,31 @@ body {
 .contacts {
   background-color: #171616;
   color: #fff;
+  padding: 97px 0;
 }
 
-.contacts_title {
+.contact-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 150%;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  padding-bottom: 45px;
 }
 
 .contact-inputs {
   display: grid;
   grid-template-columns: repeat(2, 197px);
   gap: 45px;
+  color: #fff;
 }
 
 .contact-input__message {
-  width: 356px;
+  padding-bottom: 100px;
+  color: #fff;
+  overflow: hidden;
+  resize: none;
+  grid-column: 1/-1;
 }
 
 .contact-input {
@@ -312,6 +319,8 @@ body {
   background: none;
   border: 0;
   border-bottom: 1px solid #fff;
+  color: #fff;
+  outline: none;
 }
 
 .contact-input,
@@ -320,4 +329,34 @@ body {
   font-size: 15px;
   line-height: 150%;
   letter-spacing: 0.15em;
+}
+
+.button-input {
+  height: 50px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #db2512;
+  border: none;
+}
+
+/* FOOTER */
+.footer {
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-socials {
+  height: 30px;
+}
+
+.footer-socials img {
+  width: 30px;
+  padding-left: 20px;
+}
+
+.footer-socials img:firs-child {
+  padding: 0;
 }
